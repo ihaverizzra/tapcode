@@ -1,0 +1,49 @@
+/* General style */
+body {
+    background-color: black;
+    color: red;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20%;
+}
+
+/* Title screen text styling */
+.title-screen {
+    font-size: 24px;
+    letter-spacing: 2px;
+    height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    display: inline-block;
+    animation: blink-caret 0.7s step-end infinite;
+}
+
+/* Input area for user to type */
+.input-area {
+    visibility: hidden;
+    margin-top: 20px;
+}
+
+/* Feedback message */
+.feedback {
+    color: white;
+}
+
+/* Blue screen style for final welcome */
+.blue-screen {
+    background-color: blue;
+    color: black;
+}
+
+/* Camera section */
+.camera-section {
+    color: white;
+    margin-top: 20px;
+}
+
+video {
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+}
